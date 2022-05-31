@@ -1,0 +1,10 @@
+.quest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.quest-title{
+    display: flex;
+    justify-content: center;
+}
