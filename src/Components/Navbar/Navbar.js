@@ -7,25 +7,25 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="menu1">
-        <a href="#" alt="" className="btn-menu">
+        <a href="inicio" alt="" className="btn-menu">
           <p>Inicio</p>
         </a>
-        <a href="#" alt="" className="btn-menu">
+        <a href="products" alt="" className="btn-menu">
           <p>Productos</p>
         </a>
-        <a href="#" alt="" className="btn-menu">
+        <a href="about" alt="" className="btn-menu">
           <p>Empresa</p>
-        </a>{" "}
+        </a>
       </div>
       <div className="logo-cont">
-        <img src={img} className="logo" />
+        <img src={img} className="logo" alt='' />
       </div>
 
       <div className="menu1">
-        <a href="#" alt="" className="btn-menu">
+        <a href="contact" alt="" className="btn-menu">
           <p>Contacto</p>
         </a>
-        <a href="#" alt="" className="btn-menu">
+        <a href="quest" alt="" className="btn-menu">
           <p>Preguntas frecuentes</p>
         </a>
       </div>

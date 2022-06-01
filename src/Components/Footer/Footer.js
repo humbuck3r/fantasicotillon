@@ -5,12 +5,12 @@ const Footer = () => {
     <div class="footer-basic">
       <footer>
         <div class="social">
-          <a href="https://instagram.com/florearteceramica?utm_medium=copy_link">
+          <a href="">
             <i class="icon ion-social-instagram"></i>
           </a>
          
 
-          <a href="https://es-la.facebook.com/pg/florearteceramica/posts/">
+          <a href="">
             <i class="icon ion-social-facebook"></i>
           </a>
         </div>
