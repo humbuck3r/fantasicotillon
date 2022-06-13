@@ -1,6 +1,6 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from './Components/Navbar/Navbar';
+import Header from './Components/Navbar/Navbar';
 import Slider from './Components/Slider/Slider';
 import Wsp from './Components/Wsp/Wsp';
 import About from './Components/About/About';
@@ -13,8 +13,9 @@ import Quest from './Components/Quest/Quest'
 
 function App() {
   return (
-    <><Navbar />
-    <Slider />
+    <>
+    <Header/>
+    <Slider/>
     <Wsp/>
     <About/>
     <Services/>

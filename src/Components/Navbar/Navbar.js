@@ -1,34 +1,28 @@
-import React from 'react'
-import "./Navbar.css"
-import img from '../../Assets/Img/logo fantasi.png'
+import React from "react";
+import "./Navbar.css";
+import img from "../../Assets/Img/logo fantasi.png";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
-
-export default function Navbar() {
+function Header() {
   return (
-    <div className="navbar">
-      <div className="menu1">
-        <a href="inicio" alt="" className="btn-menu">
-          <p>Inicio</p>
-        </a>
-        <a href="products" alt="" className="btn-menu">
-          <p>Productos</p>
-        </a>
-        <a href="about" alt="" className="btn-menu">
-          <p>Empresa</p>
-        </a>
-      </div>
-      <div className="logo-cont">
-        <img src={img} className="logo" alt='' />
-      </div>
+    <Navbar bg="light" expand="lg" variant="dark sticky-top">
+      <img src={img} className="logo" href="#home" alt="logo" />
+      <Container>
+        
 
-      <div className="menu1">
-        <a href="contact" alt="" className="btn-menu">
-          <p>Contacto</p>
-        </a>
-        <a href="quest" alt="" className="btn-menu">
-          <p>Preguntas frecuentes</p>
-        </a>
-      </div>
-    </div>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#Home">Inicio</Nav.Link>
+            <Nav.Link href="#About">Nosotros</Nav.Link>
+            <Nav.Link href="#Services">Servicios</Nav.Link>
+            <Nav.Link href="#Products">Productos</Nav.Link>
+            <Nav.Link href="#Quest">Preguntas frecuentes</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default Header;
