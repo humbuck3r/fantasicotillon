@@ -2,11 +2,20 @@
 
 
 .logo {
-    height: 8em;
+    height: 5.5em;
     margin-top: 1em;
-    margin-left: 10em;
 }
 
+.navbar{
+    height: 10vh;
+    box-shadow:0px 2px 5px black;
+}
 
-
-
+.bg-dark {
+    background-color: #000 !important;
+}
+.nav-link{
+    margin-left: 2rem;
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

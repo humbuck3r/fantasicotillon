@@ -16,10 +16,11 @@ function App() {
     <>
     <Header/>
     <Slider/>
+    <Products/>
     <Wsp/>
     <About/>
     <Services/>
-    <Products/>
+    
     <Quest/>
     <Delivery/>
     <Footer/>
