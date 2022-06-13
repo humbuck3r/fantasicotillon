@@ -5,8 +5,8 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg" variant="dark sticky-top">
-      <img src={img} className="logo" href="#home" alt="logo" />
+    <Navbar bg="dark" expand="lg" variant="dark sticky-top">
+      
       <Container>
         
 
