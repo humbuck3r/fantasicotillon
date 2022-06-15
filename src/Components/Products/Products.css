@@ -1,10 +1,15 @@
 .prod{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 5.5em;
 }
-h1{
-    text-align: center;
+
+.titulo{
+    margin-top: 2.5em;
+    
 }
+
 

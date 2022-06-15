@@ -6,7 +6,7 @@ import './Products.css';
 export default function Products() {
   return (
     <div className="container">
-      <h1>productos</h1>
+      <h1 className='titulo'>productos</h1>
       <div className='prod'>
         <Figure>
           <Figure.Image width={171} height={180} alt="171x180" src={batidor} />
