@@ -18,19 +18,20 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
           
-            <Nav.Link href="#Home"><img src={star} className="star" />Inicio</Nav.Link>
+            <Nav.Link href="#Home"><img src={star} className="star" alt=""/>Inicio</Nav.Link>
             
 
-            <Nav.Link href="#About"><img src={star} className="star" />Nosotros</Nav.Link>
+            <Nav.Link href="#About"><img src={star} className="star" alt=""/>Nosotros</Nav.Link>
             
 
-            <Nav.Link href="#Services"><img src={star} className="star" />Servicios</Nav.Link>
+            <Nav.Link href="#Services"><img src={star} className="star" alt=""/>Servicios</Nav.Link>
             
 
-            <Nav.Link href="#Products"><img src={star} className="star" />Productos</Nav.Link>
+            <Nav.Link href="#Products"><img src={star} className="star"alt="" />Productos</Nav.Link>
             
 
-            <Nav.Link href="#Quest"><img src={star} className="star" />Preguntas frecuentes</Nav.Link>
+            <Nav.Link href="#Quest"><img src={star} className="star" alt=""/>Preguntas frecuentes</Nav.Link>
+            <Nav.Link href="#Quest"><img src={star} className="star" alt="" />Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

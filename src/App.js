@@ -9,7 +9,7 @@ import Delivery from './Components/Delivery/Delivery';
 import Services from './Components/Services/Services';
 import Products from './Components/Products/Products';
 import Quest from './Components/Quest/Quest'
-
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
     <Wsp/>
     <About/>
     <Services/>
-    
     <Quest/>
+    <Contact/>
     <Delivery/>
     <Footer/>
     </>

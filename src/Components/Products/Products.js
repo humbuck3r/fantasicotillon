@@ -24,6 +24,14 @@ export default function Products() {
           <Figure.Image width={171} height={180} alt="171x180" src={batidor} />
           <Figure.Caption>Golosinas</Figure.Caption>
         </Figure>
+        <Figure>
+          <Figure.Image width={171} height={180} alt="171x180" src={batidor} />
+          <Figure.Caption>Disfraces</Figure.Caption>
+        </Figure>
+        <Figure>
+          <Figure.Image width={171} height={180} alt="171x180" src={batidor} />
+          <Figure.Caption>Cotillón</Figure.Caption>
+        </Figure>
       </div>
     </div>
   );

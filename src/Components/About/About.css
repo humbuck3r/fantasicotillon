@@ -1,9 +1,18 @@
+.imgabout{
+    width: 40em;
+    margin-right: 8em;
+}
+
+
 .about{
-    height: 20em;
+    height: 40em;
     margin-top: 15px;
     display: flex;
-    flex-direction: column;
     justify-content: center ;
     align-items: center;
     background-color: #f29400;
+}
+.about-info{
+    color: white;
+    font-size: large;
 }

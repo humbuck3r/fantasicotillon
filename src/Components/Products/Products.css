@@ -1,6 +1,6 @@
 .prod{
     display: flex;
-    flex-direction: column;
+    
     text-align: center;
     justify-content: space-around;
     margin-top: 4em;

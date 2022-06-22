@@ -1,11 +1,11 @@
 import React from "react";
 import './About.css'
-
+import img from '../../Assets/Img/negocio.jpeg'
 
 export default function About() {
   return (
-    <div className="about">
-        <div><h1>Nuestra empresa</h1></div>
+    <><div><h1>Nuestra empresa</h1></div><div className="about">
+
       <div className="about-info container">
         <p>
           Fantasi nace en 2003 con el objetivo de satisfacer las necesidades de
@@ -27,6 +27,9 @@ export default function About() {
           invitamos a seguir creciendo juntos!
         </p>
       </div>
-    </div>
+      <div>
+        <img src={img} className="imgabout" />
+      </div>
+    </div></>
   );
 }
